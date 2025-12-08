@@ -2,8 +2,7 @@
 
 import argparse
 
-import dredge_cli  # after renaming dredge-cli.py -> dredge_cli.py
-
+from dredge import cli as dredge_cli
 
 def test_cli_has_expected_subcommands():
     parser = dredge_cli.build_parser()

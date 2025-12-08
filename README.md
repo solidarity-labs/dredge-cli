@@ -1,7 +1,7 @@
 <div align="center">
  <p>
   <h1>
-    Dredge
+    Dredge - 0.1.1
   </h1>
  </p>
 </div>
@@ -23,7 +23,7 @@
   - **GitHub Threat Hunting** via **Org/Enterprise Audit Logs**.
 - It’s implemented as:
   - A **Python library** (`dredge`) you can import.
-  - A **CLI** (`dredge-cli.py`) you can run from the terminal.
+  - A **CLI** (dredge) entrypoint you can run from the terminal.
 
 Older features (GCP, Kubernetes, Shodan, VirusTotal, config-file log collection, etc.) are **not in prod right now** – they’re listed in the **Next steps / roadmap** section.
 
